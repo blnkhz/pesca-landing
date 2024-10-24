@@ -1,6 +1,7 @@
 html,
 body {
   margin: 0;
+  font-family: "Courier New", Courier, monospace;
 }
 
 body {
@@ -10,6 +11,36 @@ body {
   align-items: center;
   height: 100vh;
   width: 100vw;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .main-container {
+    flex-direction: column;
+  }
+}
+
+.links {
+  margin-top: 16px;
+}
+
+.links > p,
+.links > a {
+  display: inline;
+}
+
+a,
+p {
+  color: #000;
+}
+
+a:visited {
+  color: #000;
 }
 
 spline-viewer,
