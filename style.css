@@ -19,12 +19,6 @@ body {
   align-items: center;
 }
 
-@media screen and (max-width: 600px) {
-  .main-container {
-    flex-direction: column;
-  }
-}
-
 .menu-links {
   margin-top: 16px;
 }
@@ -56,4 +50,21 @@ spline-viewer,
 canvas {
   height: 400px;
   width: 400px;
+}
+
+@media screen and (max-width: 600px) {
+  .main-container {
+    flex-direction: column;
+    padding-bottom: 2rem;
+  }
+
+  .headline {
+    margin-top: 0;
+  }
+
+  spline-viewer,
+  canvas {
+    height: 300px;
+    width: 300px;
+  }
 }
