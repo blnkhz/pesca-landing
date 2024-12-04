@@ -25,13 +25,22 @@ body {
   }
 }
 
-.links {
+.menu-links {
   margin-top: 16px;
 }
 
-.links > p,
-.links > a {
+.menu-links > p,
+.menu-links > a {
   display: inline;
+}
+
+.external-link {
+  margin-bottom: 16px;
+  display: block;
+}
+
+.tel-link {
+  text-decoration: none;
 }
 
 a,
